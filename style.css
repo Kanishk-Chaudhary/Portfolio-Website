@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.navbar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(34, 35, 34, 255);
+}
+.logo {
+  margin-left: 100px;
+}
+.logo img {
+  margin-top: 15px;
+  width: 70px;
+  height: 70px;
+}
+.navbar-content ul {
+  display: flex;
+  gap: 12rem;
+  margin-right: 100px;
+  margin-top: 40px;
+}
+.navbar-content li {
+  display: flex;
+  text-decoration: none;
+}
+.navbar-content a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.navbar-content a:hover {
+  color: rgba(241, 106, 79, 255);
+}
+.home-hero {
+  width: 1905px;
+  height: 700px;
+  background-image: url(./assests/home-hero.png);
+}
+.home-hero h2 {
+  color: rgba(73, 73, 73, 255);
+  position: relative;
+  top: 200px;
+  margin-left: 300px;
+  font-size: 3rem;
+}
+.home-hero h1 {
+  color: white;
+  position: relative;
+  top: 200px;
+  margin-left: 300px;
+  font-size: 4rem;
+}
+.home-hero button {
+  color: white;
+  background-color: rgba(241, 106, 79, 255);
+  margin-left: 300px;
+  position: relative;
+  top: 200px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.home-hero button:active {
+  scale: 95%;
+}
+.about {
+  background-color: rgba(31, 31, 31, 255);
+}
+
+.about h2 {
+  position: relative;
+  text-align: center;
+  font-size: 3rem;
+  color: rgba(241, 106, 79, 255);
+  position: relative;
+  top: 30px;
+}
+.about h1 {
+  font-size: 6rem;
+  opacity: 10%;
+  color: black;
+  position: absolute;
+  margin-left: 770px;
+  top: 800px;
+}
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  height: 700px;
+}
+.photo {
+  margin-left: 300px;
+  height: 420px;
+  border: solid #df654a 8px;
+}
+.photo img {
+  top: -30px;
+  position: relative;
+  left: -30px;
+  margin-bottom: 100px;
+  width: 400px;
+  height: 400px;
+}
+.para {
+  display: block;
+  width: 900px;
+  margin-right: 200px;
+  font-size: 1.2rem;
+}
+.para h3 {
+  color: #df654a;
+  margin-bottom: 5px;
+  font-size: 2rem;
+}
+.para p {
+  color: white;
+  font-size: 1.2rem;
+}
+.p {
+  display: flex;
+  gap: 5rem;
+}
+.p a {
+  text-decoration: none;
+  color: aqua;
+  transition: all 0.3s ease-in-out;
+}
+.p a:hover {
+  color: #df654a;
+}
+
+@media screen and (max-width: 400px) {
+  .logo {
+    margin-left: 10px;
+  }
+  .navbar-content ul {
+    display: flex;
+    gap: 2rem;
+    margin-right: 10px;
+  }
+  .home-hero {
+    width: 400px;
+    height: 500px;
+    background-image: url(./assests/home-hero\(400px-500px\).png);
+  }
+  .home-hero h2 {
+    margin-left: 30px;
+    font-size: 1.5rem;
+  }
+  .home-hero h1 {
+    margin-left: 30px;
+    font-size: 2rem;
+  }
+  .home-hero button {
+    margin-left: 30px;
+  }
+  .about {
+    height: 1200px;
+  }
+  .about h1 {
+    margin-left: 25px;
+    top: 600px;
+  }
+  .about-content {
+    display: block;
+    height: 700px;
+  }
+  .photo {
+    margin-left: 100px;
+    height: 200px;
+    width: 200px;
+  }
+  .photo img {
+    width: 200px;
+    height: 200px;
+  }
+  .para {
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  .para h3 {
+    color: #df654a;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+  }
+  .para p {
+    color: white;
+    font-size: 1rem;
+  }
+  .p {
+    display: flex;
+    gap: 5rem;
+  }
+  .p a {
+    text-decoration: none;
+    color: aqua;
+    transition: all 0.3s ease-in-out;
+  }
+  .p a:hover {
+    color: #df654a;
+  }
+}
