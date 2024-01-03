@@ -277,7 +277,7 @@
   .navbar-content ul {
     display: flex;
     gap: 2rem;
-    margin-right: 10px;
+    margin-right: 20px;
   }
   .home-hero {
     width: 390px;
