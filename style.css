@@ -270,7 +270,7 @@
   text-align: center;
   font-size: small;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 720px) {
   .logo {
     margin-left: 10px;
   }
