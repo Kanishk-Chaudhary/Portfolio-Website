@@ -246,6 +246,72 @@
   font-size: 2rem;
   text-align: center;
 }
+.contact {
+  background-color: rgba(35, 35, 34, 255);
+  height: 700px;
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 3rem;
+  color: rgba(241, 106, 79, 255);
+  top: 30px;
+}
+.contact-form {
+  margin-left: 630px;
+  margin-top: 30px;
+  width: 600px;
+  height: 500px;
+  box-shadow: 0 0 25px #df654a, 0 0 5px #202020;
+  border-radius: 10px;
+}
+.contact-form div {
+  padding: 20px;
+}
+.contact-form h4 {
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.contact-form input {
+  margin-top: 5px;
+  width: 90%;
+  height: 30px;
+  border: solid white 1px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-left: 30px;
+  background-color: transparent;
+  color: aliceblue;
+}
+#textarea {
+  width: 90%;
+  resize: none;
+  color: white;
+  border: solid white 1px;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-left: 30px;
+  margin-top: 10px;
+  background-color: transparent;
+}
+.btn {
+  color: white;
+  background-color: rgba(241, 106, 79, 255);
+  margin-left: 225px;
+  position: relative;
+  top: 10px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.btn:active {
+  scale: 95%;
+}
 .footer {
   background-color: #df654a;
   color: white;
@@ -270,7 +336,7 @@
   text-align: center;
   font-size: small;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
   .logo {
     margin-left: 10px;
   }
@@ -280,7 +346,6 @@
     margin-right: 20px;
   }
   .home-hero {
-    width: auto;
     height: 500px;
     background-image: url(./assests/hero-bg\(385px\).png);
     background-repeat: no-repeat;
@@ -379,6 +444,64 @@
   .edi {
     margin-top: 40px;
     box-shadow: 0 0 25px #df654a, 0 0 5px #9c4633;
+  }
+  .contact {
+    background-color: rgba(35, 35, 34, 255);
+    height: 800px;
+  }
+  .contact {
+    height: 650px;
+  }
+  .contact-form {
+    margin-left: 35px;
+    width: 325px;
+  }
+  .contact-form div {
+    padding: 20px;
+  }
+  .contact-form h4 {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+  .contact-form input {
+    margin-top: 5px;
+    width: 90%;
+    height: 30px;
+    border: solid white 1px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-left: 15px;
+    background-color: transparent;
+    color: aliceblue;
+  }
+  #textarea {
+    width: 90%;
+    resize: none;
+    color: white;
+    border: solid white 1px;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-left: 15px;
+    margin-top: 10px;
+    background-color: transparent;
+  }
+  .btn {
+    color: white;
+    background-color: rgba(241, 106, 79, 255);
+    margin-left: 100px;
+    position: relative;
+    top: 10px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  .btn:active {
+    scale: 95%;
   }
   .footer {
     height: 300px;
