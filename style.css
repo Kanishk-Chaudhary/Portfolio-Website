@@ -312,6 +312,20 @@
 .btn:active {
   scale: 95%;
 }
+.projects-page {
+  color: #df654a;
+  background-color: #202020;
+  height: 2100px;
+}
+.projects-page h3 {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 2rem;
+}
+.projects-page h2 {
+  text-align: center;
+  font-size: 3rem;
+}
 .footer {
   background-color: #df654a;
   color: white;
