@@ -40,7 +40,10 @@
 .home-hero {
   width: 1905px;
   height: 700px;
-  background-image: url(./assests/home-hero.png);
+  background-color: rgba(35, 35, 34, 255);
+  background-image: url(./assests/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: 1920px;
 }
 .home-hero h2 {
   color: rgba(73, 73, 73, 255);
@@ -137,8 +140,137 @@
 .p a:hover {
   color: #df654a;
 }
+.projects {
+  background-color: rgba(35, 35, 34, 255);
+  height: 800px;
+}
 
-@media screen and (max-width: 400px) {
+.projects h2 {
+  position: relative;
+  text-align: center;
+  font-size: 3rem;
+  color: rgba(241, 106, 79, 255);
+  position: relative;
+  top: 30px;
+}
+.projects h1 {
+  font-size: 6rem;
+  opacity: 10%;
+  color: black;
+  position: absolute;
+  margin-left: 770px;
+  top: 1650px;
+}
+.cards {
+  display: flex;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 150px;
+  justify-content: space-between;
+}
+.dev {
+  width: 300px;
+  height: 400px;
+  box-shadow: 0 0 25px #494949, 0 0 5px #202020;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.a {
+  text-decoration: none;
+}
+.dev:hover {
+  box-shadow: 0 0 25px #df654a, 0 0 5px #9c4633;
+}
+.dev img {
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  width: 280px;
+  height: 280px;
+}
+.dev h4 {
+  color: white;
+  margin-top: 10px;
+  font-size: 2rem;
+  text-align: center;
+}
+.des {
+  width: 300px;
+  height: 400px;
+  box-shadow: 0 0 25px #494949, 0 0 5px #202020;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.a {
+  text-decoration: none;
+}
+.des:hover {
+  box-shadow: 0 0 25px #df654a, 0 0 5px #9c4633;
+}
+.des img {
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  width: 280px;
+  height: 280px;
+}
+.des h4 {
+  color: white;
+  margin-top: 10px;
+  font-size: 2rem;
+  text-align: center;
+}
+.edi {
+  width: 300px;
+  height: 400px;
+  box-shadow: 0 0 25px #494949, 0 0 5px #202020;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.a {
+  text-decoration: none;
+}
+.edi:hover {
+  box-shadow: 0 0 25px #df654a, 0 0 5px #9c4633;
+}
+.edi img {
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  width: 280px;
+  height: 280px;
+}
+.edi h4 {
+  color: white;
+  margin-top: 10px;
+  font-size: 2rem;
+  text-align: center;
+}
+.footer {
+  background-color: #df654a;
+  color: white;
+  height: 250px;
+}
+.footer h2 {
+  position: relative;
+  top: 40px;
+  margin-left: 300px;
+}
+.footer-h4 {
+  margin-top: 40px;
+  text-decoration: none;
+  margin-left: 300px;
+  line-height: 25px;
+}
+.footer-h4 a {
+  text-decoration: none;
+  color: aqua;
+}
+.copyright {
+  text-align: center;
+  font-size: small;
+}
+@media screen and (max-width: 500px) {
   .logo {
     margin-left: 10px;
   }
@@ -148,9 +280,11 @@
     margin-right: 10px;
   }
   .home-hero {
-    width: 400px;
     height: 500px;
-    background-image: url(./assests/home-hero\(400px-500px\).png);
+    background-image: url(./assests/hero-bg\(385px\).png);
+    background-repeat: no-repeat;
+    background-position: 0px;
+    background-size: 385px;
   }
   .home-hero h2 {
     margin-left: 30px;
@@ -208,5 +342,51 @@
   }
   .p a:hover {
     color: #df654a;
+  }
+  .projects {
+    background-color: rgba(35, 35, 34, 255);
+    height: 1700px;
+  }
+
+  .projects h2 {
+    position: relative;
+    text-align: center;
+    font-size: 3rem;
+    color: rgba(241, 106, 79, 255);
+    position: relative;
+    top: 30px;
+  }
+  .projects h1 {
+    font-size: 5rem;
+    opacity: 10%;
+    color: black;
+    position: absolute;
+    margin-left: 40px;
+    top: 1800px;
+  }
+  .cards {
+    display: block;
+    margin-left: 50px;
+    line-height: 20px;
+  }
+  .dev {
+    box-shadow: 0 0 25px #df654a, 0 0 5px #9c4633;
+  }
+  .des {
+    margin-top: 40px;
+    box-shadow: 0 0 25px #df654a, 0 0 5px #9c4633;
+  }
+  .edi {
+    margin-top: 40px;
+    box-shadow: 0 0 25px #df654a, 0 0 5px #9c4633;
+  }
+  .footer {
+    height: 300px;
+  }
+  .footer h2 {
+    margin-left: 65px;
+  }
+  .footer-h4 {
+    margin-left: 65px;
   }
 }
