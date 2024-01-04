@@ -22,7 +22,7 @@
   <div class="home-hero">
     <h2>I'm a</h2>
     <h1>Front-End Developer.</h1>
-    <button>Contact Me</button>
+    <button type="submit" id="mainBtn">Contact Me</button>
   </div>
   <div class="about">
     <h2>ABOUT</h2>
@@ -129,6 +129,13 @@
       <p>Copyright © 2023 - Kanishk-Chaudhary</p>
     </div>
   </footer>
+  <script>
+    document.getElementById("mainBtn").addEventListener("click", redirectFunction);
+
+    function redirectFunction() {
+      window.location.href = "./contact.html";
+    }
+  </script>
 </body>
 
 </html>
