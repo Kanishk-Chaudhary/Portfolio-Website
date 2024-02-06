@@ -45,16 +45,18 @@
   font-size: 4rem;
 }
 
-.home-hero button {
+#mainBtn {
+  display: block;
   color: white;
   background-color: rgba(241, 106, 79, 255);
   margin-left: 300px;
   position: relative;
   top: 200px;
   width: 100px;
-  height: 30px;
-  border: none;
+  padding: 5px;
   border-radius: 10px;
+  font-size: 0.8rem;
+  text-decoration: none;
   cursor: pointer;
   text-align: center;
   background-size: 300% 100%;
@@ -64,7 +66,7 @@
   transition: all 0.3s ease-in-out;
   box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
 }
-.home-hero button:hover {
+#mainBtn:hover {
   background-position: 100% 0;
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
@@ -72,7 +74,7 @@
   transition: all 0.4s ease-in-out;
 }
 
-.home-hero button:hover {
+#mainBtn:hover {
   background-image: linear-gradient(
     to right,
     #fc6076,
@@ -82,7 +84,7 @@
   );
   box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
 }
-.home-hero button:active {
+#mainBtn:active {
   scale: 95%;
 }
 .about {
@@ -103,6 +105,7 @@
   color: black;
   position: absolute;
   margin-left: 770px;
+  user-select: none;
   top: 800px;
 }
 .about-content {
@@ -116,7 +119,9 @@
   margin-left: 300px;
   height: 420px;
   border: solid #df654a 8px;
+  transition: all 0.3s ease-in-out;
 }
+
 .photo img {
   top: -30px;
   position: relative;
@@ -124,7 +129,9 @@
   margin-bottom: 100px;
   width: 400px;
   height: 400px;
+  transition: all 0.3s ease-in-out;
 }
+
 .para {
   margin-top: 50px;
   display: block;
@@ -172,6 +179,7 @@
   color: black;
   position: absolute;
   margin-left: 770px;
+  user-select: none;
   top: 1650px;
 }
 .cards {
@@ -277,6 +285,7 @@
   opacity: 10%;
   color: black;
   position: absolute;
+  user-select: none;
   margin-left: 770px;
   top: 2355px;
 }
@@ -308,7 +317,7 @@
 }
 
 input:focus {
-  border-bottom: 2px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 255, 255);
 }
 #messageInput {
   all: unset;
@@ -321,7 +330,7 @@ input:focus {
   transition: all 0.3s ease-in-out;
 }
 #messageInput:focus {
-  border-bottom: 2px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 .btn {
@@ -399,7 +408,7 @@ input:focus {
   }
   .home-hero {
     height: 500px;
-    background-image: url(./assests/hero-bg\(385px\).png);
+    background-image: url("./assests/hero-bg-385.png");
     background-repeat: no-repeat;
     background-position: 0px;
   }
