@@ -183,13 +183,14 @@
       </div>
     </footer>
     <script>
+      const API_URL = "<%= API_URL%>";
       const formRef = document.getElementById("contact-form");
       formRef.addEventListener("submit", (e) => {
         e.preventDefault();
         const form = new FormData(formRef);
         const formData = Object.fromEntries(form.entries());
         // console.log(formData);
-        fetch("http://localhost:3000/api/contact", {
+        fetch(`${API_URL}/contact`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

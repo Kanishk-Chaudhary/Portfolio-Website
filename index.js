@@ -9,13 +9,17 @@ const PORT = process.env.PORT;
 
 const path = require("path");
 dotenv.config();
+app.set("views", "./public");
+app.set("view engine", "ejs");
 app.use(cors());
 app.use(bodyParser.json());
 
-app.use(express.static(path.join(__dirname, "/public")));
+app.use(express.static(path.join(__dirname, "public")));
 
 app.get("/", (req, res) => {
-  res.render(path.join(__dirname, "index.html"));
+  res.render(path.join(__dirname, "public", "index.ejs"), {
+    API_URL: process.env.BACKEND_URL,
+  });
 });
 
 app.post("/api/contact", async (req, res) => {
