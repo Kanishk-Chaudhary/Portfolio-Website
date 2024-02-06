@@ -13,6 +13,7 @@
   "version": "1.0.0",
   "main": "db.js",
   "scripts": {
+    "start": "node index.js",
     "dev": "nodemon index.js",
     "dev-client": "http-server -o /public",
     "test": "echo \"Error: no test specified\" && exit 1"
