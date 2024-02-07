@@ -420,7 +420,7 @@ input:focus {
     margin-left: 30px;
     font-size: 2rem;
   }
-  .home-hero button {
+  .home-hero #mainBtn {
     margin-left: 30px;
   }
   .about {
@@ -513,6 +513,11 @@ input:focus {
   .contact {
     height: 650px;
   }
+  .contact h1 {
+    margin-left: 40px;
+    top: 3510px;
+    font-size: 5rem;
+  }
   .contact-form {
     margin-left: 35px;
     width: 325px;
@@ -520,49 +525,26 @@ input:focus {
   .contact-form div {
     padding: 20px;
   }
-  .contact-form h4 {
-    color: white;
-    font-size: 1.5rem;
-    margin-top: 20px;
-    margin-left: 15px;
-  }
   .contact-form input {
+    all: unset;
+    height: 40px;
+    border-bottom: 1px solid rgb(48, 48, 48);
     margin-top: 5px;
-    width: 90%;
-    height: 30px;
-    border: solid white 1px;
-    box-sizing: border-box;
-    border-radius: 5px;
-    font-size: 1rem;
-    margin-left: 15px;
-    background-color: transparent;
     color: aliceblue;
-  }
-  #textarea {
-    width: 90%;
-    resize: none;
-    color: white;
-    border: solid white 1px;
-    border-radius: 5px;
-    font-size: 1rem;
-    margin-left: 15px;
-    margin-top: 10px;
-    background-color: transparent;
-  }
-  .btn {
-    color: white;
-    background-color: rgba(241, 106, 79, 255);
-    margin-left: 100px;
-    position: relative;
-    top: 10px;
-    width: 100px;
-    height: 30px;
-    border: none;
-    border-radius: 10px;
+    width: 80%;
+    font-size: 15px;
+    margin-left: 30px;
     transition: all 0.3s ease-in-out;
   }
-  .btn:active {
-    scale: 95%;
+
+  input:focus {
+    border-bottom: 1px solid rgb(255, 255, 255);
+  }
+  .contact #messageInput {
+    width: 80%;
+  }
+  .btn {
+    margin-left: 30%;
   }
   .footer {
     height: 300px;
