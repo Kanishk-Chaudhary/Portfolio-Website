@@ -182,6 +182,7 @@
         <p>Copyright © 2024 - Kanishk-Chaudhary</p>
       </div>
     </footer>
+    <div id="loader"></div>
     <script>
       const API_URL = "<%= API_URL%>";
       const formRef = document.getElementById("contact-form");
@@ -199,6 +200,22 @@
         })
           .then(() => formRef.reset())
           .catch((error) => console.error("Error:", error));
+      });
+      var spinner = $("#loader");
+      $(function () {
+        $("form").submit(function (e) {
+          e.preventDefault();
+          spinner.show();
+          $.ajax({
+            url: "t2228.php",
+            data: $(this).serialize(),
+            method: "post",
+            dataType: "JSON",
+          }).done(function (resp) {
+            spinner.hide();
+            alert(resp.status);
+          });
+        });
       });
     </script>
   </body>
