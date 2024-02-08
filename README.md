@@ -8,12 +8,16 @@ This portfolio website showcases my skills, projects, and experiences as a Front
 
 ## Technologies
 
-- **Fornt-End:** ejs, CSS, javascript
+- **Fornt-End:** EJS, CSS, javascript
 - **Back_End:** Express.js
 - **Database:** MongoDB
 - **Access Domain:** onrender.com
 - **Version Control:** Github
 - **Plateform:** VS Code
+
+## Access Website
+
+- **Website link:** https://kanishk-portfolio.onrender.com
 
 ## Licence
 
