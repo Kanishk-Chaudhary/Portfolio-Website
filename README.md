@@ -26,7 +26,7 @@ MIT License
 Copyright (c) 2024 Kanishk Chaudhary
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files the website, to deal
+of this website and associated documentation files the website, to deal
 in the website without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the website, and to permit persons to whom the website is
