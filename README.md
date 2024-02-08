@@ -2,12 +2,6 @@
 
 Welcome to my portfolio website! This repository contains the source code for my personal portfolio website.
 
-## Table of Contents
-
-- [Description](#description)
-- [Technologies Used](#technologies-used)
-- [License](#license)
-
 ## Description
 
 This portfolio website showcases my skills, projects, and experiences as a Front-End Developer. It serves as an online resume and portfolio to highlight my work to potential employers, clients, or collaborators.
