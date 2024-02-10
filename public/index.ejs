@@ -21,7 +21,6 @@
     </div>
     <div class="about">
       <h2>ABOUT</h2>
-      <h1>ABOUT</h1>
       <div class="about-content">
         <div class="photo">
           <img src="./assests/photo.png" alt="Kanishk Chaudhary" />
@@ -91,35 +90,22 @@
     </div>
     <div class="projects">
       <h2>Projects</h2>
-      <h1>Projects</h1>
       <div class="cards">
         <a href="https://github.com/Kanishk-Chaudhary" class="a">
           <div class="dev">
-            <img
-              src="https://source.unsplash.com/featured?coding"
-              alt=""
-              width="300"
-            />
+            <img src="assests/developing.jpg" />
             <h4>Developing</h4>
           </div>
         </a>
         <a href="https://in.pinterest.com/chaudharykanishk/" class="a">
           <div class="des">
-            <img
-              src="https://source.unsplash.com/featured?graphic-design"
-              alt=""
-              width="300"
-            />
+            <img src="assests/Designing.JPG" />
             <h4>Designing</h4>
           </div>
         </a>
         <a href="#" class="a">
           <div class="edi">
-            <img
-              src="https://source.unsplash.com/featured?aftereffects"
-              alt=""
-              width="300"
-            />
+            <img src="assests/editing.jpeg" />
             <h4>Video-Editing</h4>
           </div>
         </a>
@@ -127,7 +113,6 @@
     </div>
     <section id="cont" class="contact">
       <h2>Contact</h2>
-      <h1>Contact</h1>
       <form class="contact-form" id="contact-form">
         <h4>Name</h4>
         <input
@@ -182,7 +167,6 @@
         <p>Copyright © 2024 - Kanishk-Chaudhary</p>
       </div>
     </footer>
-    <div id="loader"></div>
     <script>
       const API_URL = "<%= API_URL%>";
       const formRef = document.getElementById("contact-form");
@@ -200,22 +184,6 @@
         })
           .then(() => formRef.reset())
           .catch((error) => console.error("Error:", error));
-      });
-      var spinner = $("#loader");
-      $(function () {
-        $("form").submit(function (e) {
-          e.preventDefault();
-          spinner.show();
-          $.ajax({
-            url: "t2228.php",
-            data: $(this).serialize(),
-            method: "post",
-            dataType: "JSON",
-          }).done(function (resp) {
-            spinner.hide();
-            alert(resp.status);
-          });
-        });
       });
     </script>
   </body>

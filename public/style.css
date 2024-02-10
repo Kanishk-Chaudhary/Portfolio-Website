@@ -15,7 +15,7 @@
   background-color: rgba(34, 35, 34, 255);
 }
 .logo {
-  margin-left: 100px;
+  margin-left: 5%;
 }
 .logo img {
   margin-top: 15px;
@@ -33,26 +33,29 @@
 .home-hero h2 {
   color: rgba(73, 73, 73, 255);
   position: relative;
-  top: 200px;
-  margin-left: 300px;
+  top: 28%;
+  margin-left: 18%;
   font-size: 3rem;
 }
 .home-hero h1 {
   color: white;
   position: relative;
-  top: 200px;
-  margin-left: 300px;
-  font-size: 4rem;
+  top: 28%;
+  bottom: 70%;
+  margin-left: 18%;
+  margin-right: 20%;
+  font-size: 3.5rem;
 }
 
 #mainBtn {
   display: block;
   color: white;
   background-color: rgba(241, 106, 79, 255);
-  margin-left: 300px;
+  margin-left: 18%;
   position: relative;
-  top: 200px;
+  top: 30%;
   width: 100px;
+  bottom: 70%;
   padding: 5px;
   border-radius: 10px;
   font-size: 0.8rem;
@@ -92,44 +95,32 @@
 }
 
 .about h2 {
-  position: relative;
   text-align: center;
   font-size: 3rem;
   color: rgba(241, 106, 79, 255);
   position: relative;
   top: 30px;
 }
-.about h1 {
-  font-size: 6rem;
-  opacity: 10%;
-  color: black;
-  position: absolute;
-  margin-left: 770px;
-  user-select: none;
-  top: 800px;
-}
 .about-content {
   display: flex;
-  justify-content: space-between;
+  gap: 10%;
   margin-top: 100px;
   height: 700px;
 }
 .photo {
   margin-top: 50px;
-  margin-left: 300px;
-  height: 420px;
+  margin-left: 12%;
+  height: 60%;
   border: solid #df654a 8px;
-  transition: all 0.3s ease-in-out;
 }
 
 .photo img {
-  top: -30px;
+  top: -10%;
   position: relative;
-  left: -30px;
+  left: -10%;
   margin-bottom: 100px;
-  width: 400px;
-  height: 400px;
-  transition: all 0.3s ease-in-out;
+  width: 100%;
+  height: 100%;
 }
 
 .para {
@@ -173,24 +164,14 @@
   position: relative;
   top: 30px;
 }
-.projects h1 {
-  font-size: 6rem;
-  opacity: 10%;
-  color: black;
-  position: absolute;
-  margin-left: 770px;
-  user-select: none;
-  top: 1650px;
-}
 .cards {
   display: flex;
-  margin-left: 300px;
-  margin-right: 300px;
-  margin-top: 100px;
+  margin: 7%;
+  justify-content: center;
   justify-content: space-between;
 }
 .dev {
-  width: 300px;
+  width: 100%;
   height: 400px;
   box-shadow: 0 0 25px #494949, 0 0 5px #202020;
   border-radius: 10px;
@@ -203,11 +184,9 @@
   box-shadow: 0 0 25px #df654a, 0 0 5px #9c4633;
 }
 .dev img {
-  margin-top: 10px;
-  margin-left: 10px;
-  border-radius: 5px;
   width: 280px;
   height: 280px;
+  border-radius: 5px;
 }
 .dev h4 {
   color: white;
@@ -216,7 +195,7 @@
   text-align: center;
 }
 .des {
-  width: 300px;
+  width: 100%;
   height: 400px;
   box-shadow: 0 0 25px #494949, 0 0 5px #202020;
   border-radius: 10px;
@@ -229,8 +208,6 @@
   box-shadow: 0 0 25px #df654a, 0 0 5px #9c4633;
 }
 .des img {
-  margin-top: 10px;
-  margin-left: 10px;
   border-radius: 5px;
   width: 280px;
   height: 280px;
@@ -242,7 +219,7 @@
   text-align: center;
 }
 .edi {
-  width: 300px;
+  width: 100%;
   height: 400px;
   box-shadow: 0 0 25px #494949, 0 0 5px #202020;
   border-radius: 10px;
@@ -255,8 +232,6 @@
   box-shadow: 0 0 25px #df654a, 0 0 5px #9c4633;
 }
 .edi img {
-  margin-top: 10px;
-  margin-left: 10px;
   border-radius: 5px;
   width: 280px;
   height: 280px;
@@ -280,15 +255,7 @@
   position: relative;
   top: 30px;
 }
-.contact h1 {
-  font-size: 6rem;
-  opacity: 10%;
-  color: black;
-  position: absolute;
-  user-select: none;
-  margin-left: 770px;
-  top: 2355px;
-}
+
 .contact-form {
   margin-left: 20%;
   margin-top: 50px;
@@ -336,9 +303,10 @@ input:focus {
 .btn {
   color: white;
   background-color: rgba(241, 106, 79, 255);
-  margin-left: 500px;
-  position: relative;
-  top: 10px;
+  margin: 0px;
+  position: absolute;
+  left: 50%;
+  margin-top: 10px;
   width: 100px;
   height: 30px;
   border: none;
@@ -380,13 +348,13 @@ input:focus {
 }
 .footer h2 {
   position: relative;
-  top: 40px;
-  margin-left: 300px;
+  top: 10%;
+  margin-left: 10%;
 }
 .footer-h4 {
   margin-top: 40px;
   text-decoration: none;
-  margin-left: 300px;
+  margin-left: 10%;
   line-height: 25px;
 }
 .footer-h4 a {
@@ -397,50 +365,21 @@ input:focus {
   text-align: center;
   font-size: small;
 }
-#loader {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.75) url(images/loading2.gif) no-repeat center
-    center;
-  z-index: 10000;
-}
-@media screen and (max-width: 400px) {
-  .logo {
-    margin-left: 10px;
-  }
-  .navbar-content ul {
-    display: flex;
-    gap: 2rem;
-    margin-right: 20px;
-  }
-  .home-hero {
-    height: 500px;
-    background-image: url("./assests/hero-bg-385.png");
-    background-repeat: no-repeat;
-    background-position: 0px;
-  }
-  .home-hero h2 {
-    margin-left: 30px;
-    font-size: 1.5rem;
-  }
-  .home-hero h1 {
-    margin-left: 30px;
-    font-size: 2rem;
-  }
-  .home-hero #mainBtn {
-    margin-left: 30px;
-  }
+@media screen and (max-width: 1300px) {
   .about {
     height: 1200px;
   }
-  .about h1 {
-    margin-left: 25px;
-    top: 600px;
+  .about-content {
+    gap: 7%;
+  }
+  .photo {
+    margin-left: 13%;
+    width: 60%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .about {
+    height: 1200px;
   }
   .about-content {
     display: block;
@@ -483,7 +422,7 @@ input:focus {
   }
   .projects {
     background-color: rgba(35, 35, 34, 255);
-    height: 1700px;
+    height: 1500px;
   }
 
   .projects h2 {
@@ -504,67 +443,15 @@ input:focus {
   }
   .cards {
     display: block;
-    margin-left: 50px;
     line-height: 20px;
   }
   .dev {
-    box-shadow: 0 0 25px #df654a, 0 0 5px #9c4633;
+    margin-top: 80px;
   }
   .des {
     margin-top: 40px;
-    box-shadow: 0 0 25px #df654a, 0 0 5px #9c4633;
   }
   .edi {
     margin-top: 40px;
-    box-shadow: 0 0 25px #df654a, 0 0 5px #9c4633;
-  }
-  .contact {
-    background-color: rgba(31, 31, 31, 255);
-    height: 800px;
-  }
-  .contact {
-    height: 650px;
-  }
-  .contact h1 {
-    margin-left: 40px;
-    top: 3510px;
-    font-size: 5rem;
-  }
-  .contact-form {
-    margin-left: 35px;
-    width: 325px;
-  }
-  .contact-form div {
-    padding: 20px;
-  }
-  .contact-form input {
-    all: unset;
-    height: 40px;
-    border-bottom: 1px solid rgb(48, 48, 48);
-    margin-top: 5px;
-    color: aliceblue;
-    width: 80%;
-    font-size: 15px;
-    margin-left: 30px;
-    transition: all 0.3s ease-in-out;
-  }
-
-  input:focus {
-    border-bottom: 1px solid rgb(255, 255, 255);
-  }
-  .contact #messageInput {
-    width: 80%;
-  }
-  .btn {
-    margin-left: 30%;
-  }
-  .footer {
-    height: 300px;
-  }
-  .footer h2 {
-    margin-left: 65px;
-  }
-  .footer-h4 {
-    margin-left: 65px;
   }
 }
